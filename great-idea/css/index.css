@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 
 .top-nav nav {
 		width: 100%;
-		display: inline-block;
+		display: flex;
 		justify-content: space-between;
 }
 
@@ -105,11 +105,16 @@ a:hover {
 	float: right;
 }
 
-.head div {
-	display: inline-block;
+.head {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .head div {
+	display: flex;
 	width: 45%;
 	padding-left: 100px;
-}
+} */
 
 .head li {
 	padding-bottom: 10px;
@@ -131,13 +136,15 @@ button {
 }
 
   .top-sec {
-	  justify-content: space-evenly;
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 25px 0px 25px 0px;
   }
 
   .top-sec div {
 	width: 48%;
-	padding: 25px 0px 25px 0px;
-	display: inline-block;
+	/* padding: 25px 0px 25px 0px;
+	display: inline-block; */
   }
 
   .middle-img {
@@ -155,10 +162,16 @@ p {
 	font-weight: bold;
 }
 
+.bottom-sec {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0px 25px 0px;
+}
+
   .bottom-sec div {
 	width: 30%;
-	padding: 25px 0px 25px 0px;
-	display: inline-block;
+	/* padding: 25px 0px 25px 0px;
+	display: inline-block; */
   }
 
   footer li, footer p, .foot {
@@ -224,4 +237,5 @@ p {
   .lower-foot li {
 	color: orange;
 	font-weight: bold;
+	padding-bottom: 15px;
   }
